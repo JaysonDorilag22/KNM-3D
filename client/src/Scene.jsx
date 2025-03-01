@@ -10,7 +10,7 @@ import FreeCameraControls from "./FreeCameraControls"
 import { Gift, Sparkles, Gem, Palette, Shirt, ShoppingBag, X } from "lucide-react"
 
 const Model = () => {
-  const { scene } = useGLTF("/showroom9.glb")
+  const { scene } = useGLTF("/showroom/showroom.gltf")
   const [hoveredObject, setHoveredObject] = useState(null)
 
   return (
